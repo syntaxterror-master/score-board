@@ -1,0 +1,23 @@
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #1B244A;
+    color: white;
+}
+
+.points {
+    background-color: black;
+    text-align: center;
+
+}
+
+.team-name {
+    
+}
