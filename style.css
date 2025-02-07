@@ -1,9 +1,18 @@
+@font-face {
+    font-family: 'CursedTimerUlil';
+    src: url('CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body {
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container {
+.main-container {
+    margin: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,12 +21,48 @@ body {
     color: white;
 }
 
-.points {
-    background-color: black;
-    text-align: center;
+.container {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
 
+.points {
+    background-color: #080001;
+    border-radius: 5px;
+    height: 120px;
+    width: 155px;
+    font-family: 'CursedTimerUlil', sans-serif;
+    color: #F94F6D;
+    font-size: 90px;
+    line-height: 127px;
 }
 
 .team-name {
-    
+    margin: px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.btn-container {
+    margin-top: 50px;
+}
+
+.points-btn {
+    display: inline-block;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    font-family: 'CursedTimerUlil', sans-serif;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    margin: 11px;
+    font-size: 18px;
+    cursor: pointer;
 }
